@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Explore.net - Low Cost European Airline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.destination-carousel').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: true,
+                centerMode: true,
+                centerPadding: '60px',
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: false
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Explore.net</h1>
+            <p>Low cost European airline</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section class="Destinations">
+        <div class="container">
+            <h2 style="text-align: center;">Our popular desintaions.
+            </h2>
+            <div class="destination-carousel">
+                <div style="text-align: center;">
+                    <img src="./img/eiffel tower.jpg" alt="Destination 2">
+                </div>
+                <div><h3>Tbilisi</h3>
+                <p>Tbilisi is a beautiful city with a rich history and unique culture. With its charming old town, delicious food, and
+                welcoming people, it's a must-visit destination for anyone traveling to Georgia. Whether you're interested in exploring
+                the city's fascinating past, sampling some of the best wine and cuisine in the region, or simply enjoying the vibrant
+                atmosphere of one of the most exciting cities in the Caucasus, Tbilisi has something for everyone.</p>
+            
+            <a href="#" class="btn2">Book a Flight</a>
+            </div>
+                <div style="text-align: center;">
+                    <img src="./img/georgia_dzveli_tbilisi_city_4k_hd_city-1080x1920.jpg" alt="Destination 3">
+                </div>
+                <div>
+                    <h3>Almaty</h3>
+                    <p>Almaty is a beautiful city located in the southern part of Kazakhstan. The city has a unique combination of modern and
+                    historical architecture, beautiful nature, and delicious food. Almaty is surrounded by beautiful mountains that offer
+                    amazing views and various outdoor activities such as hiking and skiing. The city is also known for its delicious food,
+                    especially the traditional Kazakh cuisine. Almaty is a great destination for those who want to explore Central Asia and
+                    experience its unique culture and traditions.</p>
+                    <a href="#" class="btn2">Book a Flight</a>
+                </div>
+                <div style="text-align: center;">
+                    <img src="./img/kok3.jpg" alt="Destination 4">
+                </div>
+                <div>
+                    <h3>Dubai</h3>
+                    <p>Dubai is a city of superlatives, home to the world's tallest building, largest mall, and most luxurious hotels. It
+                    offers a unique blend of modernity and tradition, with stunning architecture, pristine beaches, and endless shopping
+                    opportunities. From exhilarating activities like skydiving and desert safaris to cultural experiences like visiting the
+                    old town and trying local cuisine, Dubai has something for everyone. So if you want to experience luxury and adventure
+                    in one of the world's most fascinating destinations, Dubai should be at the top of your travel list.</p><
+                    <a href="#" class="btn2">Book a Fight</a></div>
+                <div style="text-align: center;">
+                    <img src="./img/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg">
+                </div>
+                <div>
+                    <h3>Paris</h3>
+                    <p>Paris is a must-visit destination for any traveler. Known as the "City of Light," Paris is famous for its stunning
+                    architecture, rich history, and world-renowned cuisine. Visitors can stroll along the banks of the Seine River, marvel
+                    at the Eiffel Tower, and explore the countless museums and galleries that make Paris a cultural hub. From the charming
+                    cafes and bustling markets to the lively nightlife and shopping districts, Paris truly has something for everyone.</p>
+                <a href="#" class="btn2">Book a Flight</a>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to book your flight?</h2>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Explore.net. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

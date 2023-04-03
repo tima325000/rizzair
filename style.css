@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #0077c2;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('./img/A320_Wizzair_HA-LPF_EDFH_03.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #0077c2;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0077c2;
+    color: #fff;
+}
+
+.cta {
+    background-color: #0077c2;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .feature {
+        display: block;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+}
+
+.container img{
+    width: 480px;
+    height: 640px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    
+}
+.destination-carousel p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.destination-carousel h3 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container h2 {
+    font-size: 50px;
+}
+
+.container{
+    margin-top: 70px;
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+}
+.destinations{
+    height: 50%;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    background-color: #0077c2;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 50px 200px;
+}
+.btn2:hover {
+    background-color: #fff;
+    color: #0077c2;
+}
