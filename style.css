@@ -16,12 +16,13 @@ header {
     background-color: #0077c2;
     color: #fff;
     padding: 20px 0;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-left: 35%;
     display: flex;
 }
 
@@ -43,7 +44,7 @@ nav ul li a {
     background-image: url('./img/A320_Wizzair_HA-LPF_EDFH_03.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 100px 0;
 }
@@ -97,26 +98,27 @@ nav ul li a {
 }
 
 @media screen and (max-width: 768px) {
-    .feature {
-        display: block;
+    .destination-carousel {
+        display: inline-block;
         margin-bottom: 40px;
         width: 100%;
     }
 }
 
 .container img{
-    width: 480px;
-    height: 640px;
+    width: 580px;
+    height: 400px;
     margin: 0 auto;
     display: block;
+    margin-bottom: 40px;
     border-radius: 20px;
     
 }
 .destination-carousel p {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    font-size: 24px;
-    margin-top: 40px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 .destination-carousel h3 {
     width: 80%;
